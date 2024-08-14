@@ -1,0 +1,51 @@
+html {
+    background-color: rgb(93, 184, 128);
+}
+
+h1 {
+    color: blue;
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: blue;
+    font-size:larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+p, li {
+    color: rgb(72, 62, 63);
+}
+
+* {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #149f61;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 680px) {
+    h1 {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  
+    img {
+      margin-bottom: 20px;
+      width: 50%;
+      display: inline;
+      object-fit: cover;
+    }
+  }
